@@ -2,10 +2,12 @@ body {
 	font-family: 'Merriweather', 'Roboto', sans-serif;
 	font-weight: 300;
     background-color: lightskyblue;
+    padding: 100px;
 }
 
 header {
 	padding: 20px 0;
+    background: lightskyblue;
 }
 
 header .row,
