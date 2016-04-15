@@ -11,6 +11,7 @@ header {
     min-width: 100%;
     transition: all 0.1s ease;
 }
+header.fix{
     padding: 15px 0;
     transition: all 0.4s ease;
 }
@@ -27,6 +28,7 @@ header h1 {
 	margin: 0;
     color: #FFFFFF
 }
+header h1.fix{
     font-size: 30px;
     padding-left: 30px;
 }
