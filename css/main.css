@@ -17,7 +17,9 @@ header {
 header.fix{
     padding: 15px 0;
     transition: all 0.4s ease;
-
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #B87604;
 }
 
 header .row,
@@ -45,9 +47,15 @@ header p {
     margin: 0px;
 }
 
-header a, header a:hover, header a:enabled, header a:active, header a:link, header a:visited {
+header a, header a:hover, header a:enabled, header a:link, header a:visited {
     color: #B87604;
     text-decoration: none;
+}
+
+header a:active {
+    color: #B87604;
+    text-decoration: none;
+    background-color: #1A1E26;
 }
 
 .jumbotron {
@@ -123,4 +131,8 @@ footer ul {
 footer li img {
 	width: 32px;
 	height: 32px;
+}
+
+.attivo {
+    background-color: #1A1E26;
 }
