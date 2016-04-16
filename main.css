@@ -1,5 +1,5 @@
 body {
-	font-family: 'Merriweather', 'Roboto', sans-serif;
+	font-family: 'Segoe UI', 'Roboto', sans-serif;
 	font-weight: 300;
     background-color: #010713;
     padding: 100px;
@@ -10,10 +10,16 @@ header {
     background: #212630;
     min-width: 100%;
     transition: all 0.1s ease;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #B87604;
 }
 header.fix{
     padding: 15px 0;
     transition: all 0.4s ease;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #B87604;
 }
 
 header .row,
@@ -24,7 +30,6 @@ footer .row {
 
 header h1 {
 	font-weight: 400;
-    font-family: 'Segoe UI';
 	margin: 0;
     color: #FFFFFF
 }
@@ -42,16 +47,9 @@ header p {
     margin: 0px;
 }
 
-header a, header a:hover, header a:enabled {
-    color: #b87604;
+header a, header a:hover, header a:enabled, header a:active, header a:link, header a:visited {
+    color: #B87604;
     text-decoration: none;
-}
-
-header a:active {
-    color: inherit;
-    text-decoration: inherit;
-    position: relative;
-    bottom: 3px;
 }
 
 .jumbotron {
@@ -61,24 +59,25 @@ header a:active {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #ffffff;
+	color: #FFFFFF;
 	height: 500px;
 	text-shadow: 0.25px 0.25px 0.25px #000000;
-
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #B87604;
 }
 
 .jumbotron h2 {
     font-size: 60px;
-    font-family: 'Segoe UI';
     font-weight: 700;
     margin: 0;
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .jumbotron h3 {
     margin: 0 0 20px;
-    font-family: 'Segoe UI';
-    color: #FFF;
+    color: #FFFFFF;
 }
 
 .section .row img {
@@ -92,20 +91,20 @@ header a:active {
 
 .btn.btn-primary {
     border-radius: 2px;
-    border: 0px;
+    border: 10px;
     color: #A32E00;
     text-shadow: none;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 .btn.btn-primary:hover {
-  color: #ffffff;
-  background-color: #b87604;
+  color: #FFFFFF;
+  background-color: #B87604;
 }
 
 .btn-secondary {
   background-color: #E8DFE0;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0 0 30px;
 }
 
