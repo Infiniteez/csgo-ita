@@ -91,7 +91,7 @@ header a, header a:hover, header a:enabled, header a:active, header a:link, head
 
 .btn.btn-primary {
     border-radius: 2px;
-    border: 10px;
+    border: 0px;
     color: #A32E00;
     text-shadow: none;
     background-color: #FFFFFF;
